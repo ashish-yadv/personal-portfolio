@@ -1,0 +1,46 @@
+/* Custom styling */
+
+/* Buttons: */
+.border_1 {
+    border: var(--border-width) solid var(--primary);
+}
+
+.border_2 {
+    border: var(--border-width) solid var(--gray);
+}
+
+.border_top {
+    border-top: var(--border-width) solid var(--gray);
+}
+
+.border_bottom {
+    border-bottom: var(--border-width) solid var(--gray);
+}
+
+.border_top_bottom {
+    border-top: var(--border-width) solid var(--gray);
+    border-bottom: var(--border-width) solid var(--gray);
+}
+
+.text_primary {
+    color: var(--primary);
+}
+
+.text_gray {
+    color: var(--gray);
+}
+
+.text_white {
+    color: var(--white);
+}
+
+/* Navigation Menu */
+.navigation_container {
+    background-color: var(--background);
+}
+
+/* Pound sign */
+.pound,
+.oblique {
+    color: var(--primary);
+}
