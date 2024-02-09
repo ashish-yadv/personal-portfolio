@@ -5,7 +5,7 @@ import rectangle from "../public/shapes/rectangle.svg";
 
 const VECTOR = () => {
     return (
-        <div className={`hidden inline-block relative w-1/2 md:visible`}>
+        <div className={`hidden inline-block relative w-1/2 md:block`}>
             <Image
                 src={dots}
                 width={63}

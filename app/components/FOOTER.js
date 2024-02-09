@@ -19,7 +19,7 @@ const FOOTER = () => {
             <div className={`flex items-center`}>
                 Media
                 <div className={`flex ml-7`}>
-                    <Link href={`/`} className={`m-1.5`}>
+                    <Link href={`https://github.com/ashish-yadv`} className={`m-1.5`}>
                         <Image
                             src={githubLogo}
                             width={30}

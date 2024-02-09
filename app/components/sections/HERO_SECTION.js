@@ -6,9 +6,9 @@ const HERO_SECTION = () => {
         <>
             <div className={`md:w-3/6`}>
                 <span className={`hero_text text-3xl font-semibold`}>
-                    Elias is a&nbsp;
-                    <p className={`${styles.text_primary} inline`}>web designer&nbsp;</p>
-                    and
+                    Ashish is a&nbsp;
+                    {/* <p className={`${styles.text_primary} inline`}>web designer&nbsp;</p>
+                    and */}
                     <p className={`${styles.text_primary}`}>front-end developer</p>
                 </span>
 
