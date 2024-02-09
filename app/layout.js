@@ -2,6 +2,8 @@ import { fira_code } from "./ui/fonts.js";
 import LOGO_MOBILE from "./components/LOGO_MOBILE";
 import NAVIGATION_MENU from "./components/NAVIGATION_MENU.js";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // Styles import:
 import "./globals.css";
 import "./components/global.module.css";
@@ -25,6 +27,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
